@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="159dp"
+            android:layout_height="211dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/id_hello"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="164dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="288dp"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="97dp"
+            android:layout_height="311dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="248dp"
+            android:layout_marginEnd="8dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.576"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="110dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="128dp"
+            android:text="Botão"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="408dp"
+            android:layout_height="763dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="55dp"
+            android:text="Texto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\nTexto com várias palavras e quebras de linha. \n\n"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
